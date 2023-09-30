@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Vertical Labels and Fields with Validation</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                <div class="invalid-feedback">
+                    Please supply your first name
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                <div class="invalid-feedback">
+                    Please supply your last name
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                <div class="invalid-feedback">
+                    Please supply your email
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone #</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Phone #" required>
+                <div class="invalid-feedback">
+                    Please supply your phone number
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Address" required>
+                <div class="invalid-feedback">
+                    Please supply your address
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" placeholder="City" required>
+                <div class="invalid-feedback">
+                    Please supply your city
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="state">State</label>
+                <input type="text" class="form-control" id="state" placeholder="State" required>
+                <div class="invalid-feedback">
+                    Please supply your state
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Do you have hosting?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="hosting" id="yes" value="yes" required>
+                    <label class="form-check-label" for="yes">Yes</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="hosting" id="no" value="no" required>
+                    <label class="form-check-label" for="no">No</label>
+                </div>
+                <div class="invalid-feedback">
+                    Please select an option.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="description">Project Description</label>
+                <textarea class="form-control" id="description" rows="4" required></textarea>
+                <div class="invalid-feedback">
+                    Project description is required.
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

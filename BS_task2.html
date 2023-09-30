@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Builderz</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .div1{
+            height:120px;
+            background-color: rgb(255, 225, 0);
+        }
+        .div2{
+            height:500px;
+        }
+        .div3{
+            width:1100px;
+        }
+        .box1,.box3{
+            width:350px;
+            background-color: rgb(0, 0, 71);
+            height:200px;
+            padding:20px 0px 0px 50px;
+        }
+        .box2{
+            width:370px;
+            height:200px;
+            background-color: rgb(255, 225, 0);
+            padding:20px 0px 0px 50px;
+        }
+        .nav+a{
+            color:white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="height: 1000px; width:1100px; margin-left:150px;">
+        <div class="div1">
+            <div style="display: flex; height:70px;" >
+                <h1 style="margin-left: 100px; color:rgb(0, 0, 70);">Builderz</h1>
+                <div class="navi" style="margin-left: 300px;">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="padding-right:50px;">Opening hour</a>
+                            <p style="font-size: 10px;padding:0 0 10px 20px">Mon-Fri, 8:00-9:00</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="padding-right:50px;">Contact us</a>
+                            <p style="font-size: 10px;padding:0 0 10px 20px">0988976878</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" >Email us</a>
+                            <p style="font-size: 10px;padding:0 0 10px 20px">info@example.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-pallete" style="margin-left: 100px; background-color:rgb(0, 0, 71); height:50px;">
+                <ul class="nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a href="#" class="nav-link btn dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Link 1</a>
+                              <a class="dropdown-item" href="#">Link 2</a>
+                              <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+        <div class="div2">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+              
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="eng.jpg" alt="Los Angeles">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="chicago.jpg" alt="Chicago">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="ny.jpg" alt="New York">
+                  </div>
+                </div>
+              
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              
+              </div>
+        </div> 
+        <div class="div3" style="display: flex;">
+            <div class="box1">
+                <h3>Expert Worker</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa itaque, voluptatum dolores quos reiciendis et recusandae </p>
+            </div>
+            <div class="box2">
+                <h3>Quality Work</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus corrupti exercitationem quaerat et dicta, tenetur labore</p>
+            </div>
+            <div class="box3">
+                <h3>24/7 Support</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, ipsum natus quos illum officiis, eos numquam inventore ratione</p>
+            </div>
+        </div>
+    </div>
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
